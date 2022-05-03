@@ -1,0 +1,43 @@
+.singleskill-container {
+    display: flex;
+    flex-direction: column;
+}
+.singleskill-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.singleskill-name,
+.singleskill-perc {
+    margin: auto 5px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+
+.singleskill-bottom {
+    height: 5px;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+.singleskill-prot {
+    height: 100%;
+}
+
+.singleskill-bar {
+    height: 100%;
+    background-color: #000000;
+    animation: prog 3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+@keyframes prog {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}

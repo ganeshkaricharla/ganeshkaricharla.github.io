@@ -1,0 +1,22 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-submit-button {
+  width: 200px;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-family: montserrat;
+  background-color: black;
+  font-size: 15px;
+}
+
+.input {
+  font-style: oblique;
+  padding: 15px 10px;
+  font-family: montserrat;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: 1px solid #adadadd3;
+  font-weight: 600;
+}

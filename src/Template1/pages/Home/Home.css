@@ -1,0 +1,96 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* background-color: #fff666; */
+    /* background-image: url('https://cutewallpaper.org/21/white-background-gif/Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.home-avatar {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-details {
+    font-family: montserrat;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+.home-details-name {
+    font-family: montserrat;
+    line-height: 1.5em;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.home-details {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+.home-details > * {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 970px) {
+    .home-details-name {
+        font-size: 30px;
+    }
+}
+@media (max-width: 760px) {
+    .home-container {
+        flex-direction: column;
+    }
+    .home-details {
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-details-name {
+        font-size: 30px;
+    }
+    .home-detail-about {
+        font-size: 15px;
+        text-align: center;
+    }
+    .home-social-icons {
+        font-size: 20px;
+    }
+    .home-avatar-image {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-container {
+        flex-direction: column;
+    }
+    .home-avatar-image {
+        width: 250px;
+        height: 250px;
+    }
+    .home-details {
+        margin-top: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-details-name {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .home-detail-about {
+        font-size: 15px;
+        line-height: 1.2em;
+    }
+}

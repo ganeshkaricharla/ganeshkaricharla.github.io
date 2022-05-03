@@ -1,0 +1,33 @@
+.sidebar-container {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  animation: slideInRight 0.5s;
+}
+
+.sidebar-list {
+  list-style: none;
+}
+
+.sidebar-list-item {
+  padding: 15px 25px 15px 75px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

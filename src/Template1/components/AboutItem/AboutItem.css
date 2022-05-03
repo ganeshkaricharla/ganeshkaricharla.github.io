@@ -1,0 +1,14 @@
+.about-detail-item {
+  display: flex;
+  font-family: montserrat;
+  padding: 5px 0;
+}
+
+.about-detail-item-key {
+  width: 30%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.about-detail-item-value {
+  width: 70%;
+}

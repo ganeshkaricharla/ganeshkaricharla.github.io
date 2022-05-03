@@ -1,0 +1,36 @@
+.topbar-container {
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.topbar-content {
+  margin: 0 30px;
+  font-weight: 800;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.topbar-burger {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+  animation: rotate 0.5s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+box-sizing: border-box;
+width: 100%;
+margin: 0;
+
+/* background: #082943;
+background: -moz-linear-gradient(45deg, #082943 0%, #000001 56%, #092555 100%);
+background: -webkit-linear-gradient(45deg, #082943 0%, #000001 56%, #092555 100%);
+background: linear-gradient(45deg, #082943 0%, #000001 56%, #092555 100%); */
+user-select: none;
+font-family: 'Baloo Tammudu 2', cursive;
+overflow-x: hidden;
+
+}
+
+input:focus,textarea:focus,select:focus{
+    outline: none;
+}
+.section-container{
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+
+}
+
+@media only screen and (max-width:600px){
+    .section-container{
+        padding: 100px 0;
+
+    }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "title": "BlogApp",
+        "imageURL": "https://images.unsplash.com/photo-1646837843550-9efebf25ec29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "content": "Choose a creature. Until the end of your next turn, whenever that creature deals damage to a player, it deals that much damage to the other player instead.",
+        "livelink":"https://www.youtube.com/watch?v=QQ8_Z-_Z-_E",
+        "repolink": "https://www.github.com/joshuacorbin/Celestial",
+        "type":"ds"
+    },
+    {
+        "id": "2",
+        "title": "Celestial",
+        "imageURL": "https://images.unsplash.com/photo-1646837843550-9efebf25ec29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "content": "Choose a creature. Until the end of your next turn, whenever that creature deals damage to a player, it deals that much damage to the other player instead.",
+        "livelink":"https://www.youtube.com/watch?v=QQ8_Z-_Z-_E",
+        "repolink": "https://www.github.com/joshuacorbin/Celestial",
+        "type":"ds"
+    },
+    {
+        "id": "3",
+        "title": "Celestial",
+        "imageURL": "https://images.unsplash.com/photo-1646837843550-9efebf25ec29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "content": "Choose a creature. Until the end of your next turn, whenever that creature deals damage to a player, it deals that much damage to the other player instead.",
+        "livelink":"https://www.youtube.com/watch?v=QQ8_Z-_Z-_E",
+        "repolink": "https://www.github.com/joshuacorbin/Celestial",
+        "type":"ds"
+    }
+]

@@ -1,0 +1,14 @@
+.contact-google-map {
+  filter: grayscale();
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-gmap {
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 5%;
+  outline: none;
+  border: none;
+}

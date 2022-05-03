@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: montserrat;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.app-main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.errorpage {
+    margin-top: 200px 200px;
+}

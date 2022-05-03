@@ -1,0 +1,32 @@
+[
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/en/3/3a/Lovely_Professional_University_logo.png",
+        "school": "Lovely Professional University",
+        "degree": "Bachelors of Technology",
+        "major":  "Computer Science and Engineering",
+        "time": "August 2018 - May 2022",
+        "description": "hijkh doxjadsholkshdouhoihkjhihjkhds dhdo",
+        "courses": [
+            "Data Structures & Algorithms",
+            "DevOps",
+            "Web Design",
+            "Software Engineering",
+            "Java",
+            "Database Systems",
+            "Python"
+        ]
+    },
+    {
+        "logo": "https://scontent.frja3-1.fna.fbcdn.net/v/t1.18169-1/23915818_1532789466813844_462749671812664243_n.png?stp=cp0_dst-png_p40x40&_nc_cat=109&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=hmAMRit-JhwAX8PE2-m&_nc_ht=scontent.frja3-1.fna&oh=00_AT-6OWtTRHh_mhT7cTe66Qt8g3nq9oHmMoUOKeaULkeuHA&oe=6258E6E2",
+        "school": "Narayana Junior College",
+        "degree": "High School",
+        "major":  "Mathematics",
+        "time": "June 2016- April 2018",
+        "description": "",
+        "courses": [
+            "Mathematics",
+            "Physics",
+            "Chemistry"
+        ]
+    }
+]

@@ -1,0 +1,97 @@
+.singlework-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.singlework-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    padding: 10px 0;
+}
+
+.singlework-college {
+    display: flex;
+    align-items: center;
+}
+
+.singlework-college > div,
+.singlework-description {
+    margin: auto 10px;
+}
+.singlework-name-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.singlework-logo {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(60%);
+}
+
+.singlework-middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 0 10px 0;
+}
+
+.singlework-name {
+    font-size: 120%;
+    font-weight: 800;
+    color: #000000;
+}
+.singlework-time {
+    font-size: 80%;
+    font-weight: 400;
+    color: #707070;
+}
+
+.singlework-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.singlework-projects-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.singlework-project {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlework-projects-title {
+    /* background-color: #fff666; */
+    font-size: 120%;
+    font-weight: 700;
+    color: #a8a8a8;
+    padding: 2% 2%;
+}
+
+.singlework-project-logo {
+    height: 50px;
+    width: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: grayscale(60%);
+}
+.singlework-project-name {
+    text-align: center;
+    font-size: 80%;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #707070;
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "logo": "https://frugaltesting.com/resources/images/logo.png",
+        "company": "Frugal Testing",
+        "role": "Software Development Engineer in Test",
+        "time": "August 2017 - May 2021",
+        "description":"",
+        "projects": [
+            {
+                "name": "SacredGroves",
+                "description": "",
+                "logo": "https://www.sacredgroves.earth/assets/img/logo1.png",
+                "link": "https://www.sacredgroves.earth/"
+            },
+            {
+                "name": "Eltropy",
+                "description": "",
+                "logo": "https://eltropy.com/wp-content/uploads/2021/03/Logo-Hor-White_txt-SVG.svg",
+                "link": "https://eltropy.com/"
+            }
+        ]
+    }
+]
