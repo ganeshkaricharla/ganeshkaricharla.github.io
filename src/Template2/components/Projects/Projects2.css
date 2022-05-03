@@ -1,0 +1,101 @@
+
+.project-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 44px;
+    align-self: center;
+    justify-content: space-evenly;
+
+}
+.project-card{
+    margin-top: 60px;
+}
+.card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 20px 10px;
+    padding : 15px 15px;
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+ .card:hover {
+    height : 320px;    
+  }
+  
+  
+ .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+ .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+ .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.card:hover .singleHeading{
+  visibility: hidden;
+  display: none;
+}
+.singleHeading{
+  color: #111;
+  border: none;
+  line-height: 1.2em;
+  outline: none;
+  padding:2px
+}
+.content{
+  line-height: 1.6em;
+}
+.card:hover .content {
+     margin-top : 10px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  @media only screen and (max-width:700px){
+    .project-card-container{
+        padding: 15px;
+    }
+    .project-card{
+        width: 290px;
+        height: 450px;
+        margin-top: 20px;
+    }
+    .content{
+      line-height: 1.5em;
+    }
+
+}

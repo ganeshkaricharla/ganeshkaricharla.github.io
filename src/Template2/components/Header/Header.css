@@ -1,0 +1,40 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    align-self: center;
+
+}
+.header-container>h1{
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(238, 238, 97);
+    background: transparent;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+}
+
+.header-container>p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 2.4em;
+    text-align: center;
+    margin: 10px 0;
+}
+ @media only screen and (max-width:600px){
+     .header-container{
+         max-width: 100%;
+         width: 95%;
+         margin-bottom: 40px;
+     }
+     .header-container>p{
+        font-size: 1em;
+        line-height: 1.8;
+
+     }
+
+ }
